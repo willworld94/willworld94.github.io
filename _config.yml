@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : #"Wei Zhang"
+title                    : 
 title_separator          : "-"
 name                     : &name "Wei's Person Website"
 description              : &description "personal description"
