@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wei Zhang"
+title                    : #"Wei Zhang"
 title_separator          : "-"
-name                     : &name "Your Name / Site Title"
+name                     : &name "Wei's Person Website"
 description              : &description "personal description"
 url                      : https://willworld94.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Wei Zhang"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Machine Learning / Deep Learning Professional"
   location         : "New York, New York"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
