@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : 
 title_separator          : 
-name                     : &name "Wei's Person Website"
+name                     : &name "About me"
 description              : &description "personal description"
 url                      : https://willworld94.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
