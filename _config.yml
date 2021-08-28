@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : 
-title_separator          : "-"
+title_separator          : 
 name                     : &name "Wei's Person Website"
 description              : &description "personal description"
 url                      : https://willworld94.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -184,9 +184,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-#   talks:
-#     output: true
-#     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -209,15 +209,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-#   - scope:
-#       path: ""
-#       type: teaching
-#     values:
-#       layout: single
-#       author_profile: true
-#       share: true
-#       comments: true
+  #_research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -236,14 +236,14 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-#   - scope:
-#       path: ""
-#       type: talks
-#     values:
-#       layout: talk
-#       author_profile: true
-#       share: true
+  #projects
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
